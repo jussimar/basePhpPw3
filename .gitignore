@@ -1,0 +1,26 @@
+public/.DS_Store
+
+public/application/cache/*
+public/!application/cache/index.html
+
+public/application/logs/*
+public/!application/logs/index.html
+
+public/!application/*/.htaccess
+
+public/composer.lock
+
+public/user_guide_src/build/*
+public/user_guide_src/cilexer/build/*
+public/user_guide_src/cilexer/dist/*
+public/user_guide_src/cilexer/pycilexer.egg-info/*
+public//vendor/
+
+dev/*
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+
