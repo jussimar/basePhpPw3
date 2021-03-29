@@ -24,13 +24,13 @@
                 <div class="col-12">
                     <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
+                            <a class="nav-link active" href="<?= base_url() ?>principal">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pagina 1</a>
+                            <a class="nav-link" href="<?= base_url() ?>quemsomos">Quem Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pagina 2</a>
+                            <a class="nav-link" href="<?= base_url() ?>contato">Contato</a>
                         </li>
                     </ul>
                 </div>
