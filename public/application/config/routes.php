@@ -52,3 +52,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Principal';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route['inserir']['post'] = 'cadastro/cadastraUsuario';
+$route['listar'] = 'cadastro/listarUsuario';
+$route['editar/(:any)'] = 'cadastro/editarUsuario/$1';
+$route['alterar/(:any)'] = 'cadastro/alterarUsuario/$1';
+$route['deletar/(:any)'] = 'cadastro/deletarUsuario/$1';
